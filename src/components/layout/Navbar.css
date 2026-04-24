@@ -1,0 +1,122 @@
+/* HEADER */
+.header {
+  background: #1ba0e3;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+}
+
+/* NAV WRAPPER */
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.logo h2 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* NAV */
+.nav {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: #1ba0e3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* animation */
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+/* OPEN STATE */
+.nav.open {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* LINKS */
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+}
+
+/* HOVER EFFECT (UNDERLINE) */
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  transform: translateX(-50%);
+  transition: 0.3s;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+/* MENU BUTTON */
+.menu-btn {
+  font-size: 26px;
+  cursor: pointer;
+  color: #fff;
+  padding-right: 10px;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+
+  .nav {
+    position: static;
+    flex-direction: row;
+    gap: 25px;
+    width: auto;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+  }
+
+  .nav a {
+    padding: 0;
+    width: auto;
+  }
+
+  .nav a::after {
+    bottom: -6px;
+  }
+}

@@ -1,0 +1,34 @@
+.contact-preview {
+  padding: 30px 0;
+  background: #f9fbfd;
+  text-align: center;
+}
+.section-header h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.section-header .title{
+  color: #0f172a;
+  text-decoration: none;
+}
+.section-header .title:hover {
+  color: #1ba0e3;
+}
+.section-header p {
+  color: #555;
+  font-size: 14px;
+}
+.contact-info {
+  margin: 20px 0;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.btn.primary {
+  background: #1ba0e3;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}

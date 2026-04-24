@@ -1,0 +1,62 @@
+/* CONTAINER */
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* FIXED HEIGHT → NO CLS */
+.carousel-slide {
+  min-width: 100%;
+  height: 250px;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TRACK */
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* DOTS */
+.carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.carousel-dots button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+/* ACTIVE DOT */
+.carousel-dots .active {
+  background: #1ba0e3;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  .carousel-slide {
+    height: 350px;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .carousel-slide {
+    height: 450px;
+  }
+}

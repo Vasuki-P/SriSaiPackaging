@@ -1,10 +1,12 @@
 import "./About.css"
-import aboutImg from "../assets/images/slide1.jpg" // optional image
+import aboutImg from "../assets/images/carousel5.jpg"
 
 const About = () => {
   return (
     <section className="about">
+      <h1 className="page-title">About Us</h1>
       <div className="container">
+
 
         {/* INTRO */}
         <div className="about-section">

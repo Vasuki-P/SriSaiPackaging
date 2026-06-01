@@ -36,6 +36,7 @@
 .about-text h2 {
   margin-bottom: 15px;
   font-size: 24px;
+  color:#1ba0e3;
 }
 
 .about-text p {
@@ -102,10 +103,10 @@
 }
 
 .value-card {
-  background: #fff;
+  background: rgba(211, 211, 211, 0.1);
   padding: 20px;
   border-radius: 10px;
-  border: 1px solid #eee;
+  border: 1px solid #e5e7eb;
   transition: 0.3s;
 }
 

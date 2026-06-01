@@ -3,6 +3,7 @@ import "./Contact.css"
 const Contact = () => {
     return (
         <section className="contact-page">
+            <h1 className="page-title">Contact Us</h1>
             <div className="container">
 
                 {/* TOP SECTION */}
@@ -54,7 +55,7 @@ const Contact = () => {
 
                     {/* WHATSAPP */}
                     <a
-                        href="https://wa.me/919944154955"
+                        href="https://wa.me/919790322256 "
                         target="_blank"
                         rel="noreferrer"
                         className="contact-card"

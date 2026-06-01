@@ -1,31 +1,31 @@
 import "./InfrastructurePreview.css"
 
-import img1 from "../../../assets/images/slide1.jpg"
-import img2 from "../../../assets/images/slide2.jpg"
-import img3 from "../../../assets/images/slide3.jpg"
-import img4 from "../../../assets/images/slide2.jpg"
+import advanced_machinery from "../../../assets/images/home_infra_advanced_machine.JPG"
+import quality_control from "../../../assets/images/home_infra_quality_control.JPG"
+import warehouse_facility from "../../../assets/images/home_infra_warehouse_facility.JPG"
+import skilled_workforce from "../../../assets/images/home_infra_skilled_workforce.JPG"
 import { Link } from "react-router-dom"
 
 const infraData = [
     {
         title: "Advanced Machinery",
         desc: "Equipped with high-speed automated machines for large-scale production.",
-        img: img1,
-    },
-    {
-        title: "Quality Control",
-        desc: "Strict quality checks at every stage to ensure durability and precision.",
-        img: img2,
+        img: advanced_machinery,
     },
     {
         title: "Warehouse Facility",
         desc: "Spacious storage units for safe and organized product handling.",
-        img: img3,
+        img: warehouse_facility,
+    },
+    {
+        title: "Quality Control",
+        desc: "Strict quality checks at every stage to ensure durability and precision.",
+        img: quality_control,
     },
     {
         title: "Skilled Workforce",
         desc: "Experienced professionals ensuring consistent output and innovation.",
-        img: img4,
+        img: skilled_workforce,
     },
 ]
 

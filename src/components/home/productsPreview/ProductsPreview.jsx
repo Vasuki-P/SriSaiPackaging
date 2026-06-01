@@ -2,20 +2,16 @@ import "./ProductsPreview.css"
 import { Link } from "react-router-dom"
 import { useRef, useState, useEffect } from "react"
 
-import img1 from "../../../assets/images/slide1.jpg"
-import img2 from "../../../assets/images/slide2.jpg"
-import img3 from "../../../assets/images/slide3.jpg"
-import img4 from "../../../assets/images/slide1.jpg"
-import img5 from "../../../assets/images/slide2.jpg"
-import img6 from "../../../assets/images/slide3.jpg"
+import corrugated_box from "../../../assets/images/home_product_corrugated_box.JPG"
+import custom_box from "../../../assets/images/products/custom_size_box_1.jpg"
+import printed_box from "../../../assets/images/products/printed_carton_box_2.jpg"
+import cold_box from "../../../assets/images/products/cold_Storage_box_1.jpg"
 
 const products = [
-  { title: "Corrugated Boxes", img: img1 },
-  { title: "Egg Packaging", img: img2 },
-  { title: "Printed Carton", img: img3 },
-  { title: "Vegetable Export", img: img4 },
-  { title: "Cold Storage Boxes", img: img5 },
-  { title: "Custom Boxes", img: img6 },
+  { title: "Corrugated Boxes", img: corrugated_box },
+  { title: "Printed Carton", img: printed_box },
+  { title: "Cold Storage Boxes", img: cold_box },
+  { title: "Custom Boxes", img: custom_box },
 ]
 
 const ProductsPreview = () => {

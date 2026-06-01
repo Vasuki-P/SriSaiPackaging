@@ -41,6 +41,7 @@
 /* IMAGE */
 .infra-img {
   flex: 1;
+  width: 100%;
 }
 
 .infra-img img {
@@ -92,6 +93,7 @@
   .infra-item,
   .infra-item.reverse {
     flex-direction: column;
+    gap:0;
   }
 
   .infra-img img {
@@ -101,10 +103,13 @@
   .infra-hero h1 {
     font-size: 26px;
   }
+  .infra-timeline::before {
+    background: none;
+  }
 }
 
 /* Animation */
-.infra-page{
+.infra-infra-timeline{
   animation: fadeUp 0.6s ease;
 }
 

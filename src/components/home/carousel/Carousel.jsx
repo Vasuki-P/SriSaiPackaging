@@ -1,11 +1,12 @@
 import { useEffect, useState, useRef } from "react"
 import "./Carousel.css"
 
-import img2 from "../../../assets/images/slide1.jpg"
-import img1 from "../../../assets/images/slide2.jpg"
-import img3 from "../../../assets/images/slide3.jpg"
+import img1 from "../../../assets/images/carousel1.png"
+import img2 from "../../../assets/images/carousel2.JPG"
+import img3 from "../../../assets/images/carousel6.JPG"
+import img4 from "../../../assets/images/carousel3.JPG"
 
-const images = [img1, img2, img3]
+const images = [img1, img3, img2, img4]
 
 const Carousel = () => {
   const [index, setIndex] = useState(0)

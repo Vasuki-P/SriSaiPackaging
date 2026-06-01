@@ -5,3 +5,7 @@
 body{
   background-color: rgb(255, 255, 255);
 }
+.page-title{
+  color: #0f172a;
+  text-align: center;
+}

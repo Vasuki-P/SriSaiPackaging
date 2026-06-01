@@ -1,5 +1,5 @@
 import "./Hero.css"
-import heroImg from "../../../assets/images/hero-box.jpg"
+import heroImg from "../../../assets/images/home_hero_img1.JPG"
 
 const Hero = () => {
   return (
@@ -16,12 +16,12 @@ const Hero = () => {
           </p>
 
           <div className="hero-buttons">
-            <a href="tel:+919944154955" className="btn primary">
+            <a href="tel:+919790322256 " className="btn primary">
               Call Now
             </a>
 
             <a
-              href="https://wa.me/919944154955"
+              href="https://wa.me/919790322256 "
               target="_blank"
               className="btn secondary"
             >

@@ -1,6 +1,6 @@
 /* PAGE */
 .products-page {
-  padding: 40px;
+  padding: 0px 40px;
   background: #f9fbfd;
 }
 
@@ -14,7 +14,7 @@
   text-align: center;
   font-size: 26px;
   margin-bottom: 25px;
-  color: #222;
+  color: #1ba0e3;
   font-weight: 600;
 }
 

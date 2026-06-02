@@ -1,9 +1,9 @@
 import "./InfrastructurePreview.css"
 
 import advanced_machinery from "../../../assets/images/home_infra_advanced_machine.jpg"
-import quality_control from "../../../assets/images/home_infra_quality_control.JPG"
-import warehouse_facility from "../../../assets/images/home_infra_warehouse_facility.JPG"
-import skilled_workforce from "../../../assets/images/home_infra_skilled_workforce.JPG"
+import quality_control from "../../../assets/images/home_infra_quality_control.jpg"
+import warehouse_facility from "../../../assets/images/home_infra_warehouse_facility.jpg"
+import skilled_workforce from "../../../assets/images/home_infra_skilled_workforce.jpg"
 import { Link } from "react-router-dom"
 
 const infraData = [

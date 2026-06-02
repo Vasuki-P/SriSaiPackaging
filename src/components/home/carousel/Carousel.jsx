@@ -2,9 +2,9 @@ import { useEffect, useState, useRef } from "react"
 import "./Carousel.css"
 
 import img1 from "../../../assets/images/carousel1.png"
-import img2 from "../../../assets/images/carousel2.JPG"
-import img3 from "../../../assets/images/carousel6.JPG"
-import img4 from "../../../assets/images/carousel3.JPG"
+import img2 from "../../../assets/images/carousel2.jpg"
+import img3 from "../../../assets/images/carousel6.jpg"
+import img4 from "../../../assets/images/carousel3.jpg"
 
 const images = [img1, img3, img2, img4]
 

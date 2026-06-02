@@ -1,6 +1,6 @@
 import "./InfrastructurePreview.css"
 
-import advanced_machinery from "../../../assets/images/home_infra_advanced_machine.JPG"
+import advanced_machinery from "../../../assets/images/home_infra_advanced_machine.jpg"
 import quality_control from "../../../assets/images/home_infra_quality_control.JPG"
 import warehouse_facility from "../../../assets/images/home_infra_warehouse_facility.JPG"
 import skilled_workforce from "../../../assets/images/home_infra_skilled_workforce.JPG"

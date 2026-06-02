@@ -2,7 +2,7 @@ import "./ProductsPreview.css"
 import { Link } from "react-router-dom"
 import { useRef, useState, useEffect } from "react"
 
-import corrugated_box from "../../../assets/images/home_product_corrugated_box.JPG"
+import corrugated_box from "../../../assets/images/home_product_corrugated_box.jpg"
 import custom_box from "../../../assets/images/products/custom_size_box_1.jpg"
 import printed_box from "../../../assets/images/products/printed_carton_box_2.jpg"
 import cold_box from "../../../assets/images/products/cold_Storage_box_1.jpg"
